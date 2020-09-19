@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../button/button.component";
+import Button from "../button/button.component";
 import "./footer.style.css";
 
 const Footer = () => {

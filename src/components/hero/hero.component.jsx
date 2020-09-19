@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../button/button.component";
+import Button from "../button/button.component";
 import "../../App.css";
 import "./hero.style.css";
 
