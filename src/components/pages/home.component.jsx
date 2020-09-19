@@ -4,7 +4,7 @@ import Card from "../card/card.component";
 import Footer from "../footer/footer.component";
 import HeroSection from "../hero/hero.component";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
@@ -12,6 +12,6 @@ function Home() {
       <Footer />
     </>
   );
-}
+};
 
 export default Home;

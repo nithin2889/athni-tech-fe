@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "../button/button.component";
 import "./navbar.style.css";
 
-function Navbar() {
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -64,6 +64,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

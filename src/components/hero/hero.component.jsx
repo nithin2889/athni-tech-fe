@@ -3,7 +3,7 @@ import { Button } from "../button/button.component";
 import "../../App.css";
 import "./hero.style.css";
 
-function HeroSection() {
+const HeroSection = () => {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
@@ -20,6 +20,6 @@ function HeroSection() {
       </div>
     </div>
   );
-}
+};
 
 export default HeroSection;
